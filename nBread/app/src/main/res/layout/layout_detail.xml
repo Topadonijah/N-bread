@@ -12,7 +12,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_view"
@@ -77,6 +77,7 @@
                                     android:gravity="center"
                                     android:text="5명"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="15sp" />
                             </LinearLayout>
 
@@ -163,6 +164,7 @@
                                     android:gravity="center"
                                     android:text="1,000,000￦"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="15sp" />
                             </LinearLayout>
 
@@ -185,6 +187,7 @@
                                     android:gravity="center"
                                     android:text="곽승훈"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="15sp" />
                             </LinearLayout>
 
@@ -222,6 +225,7 @@
                                     android:gravity="center"
                                     android:text="곽승훈"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="15sp" />
                             </LinearLayout>
 
@@ -259,6 +263,7 @@
                                     android:gravity="center"
                                     android:text="이민혁"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="15sp" />
                             </LinearLayout>
 
@@ -296,6 +301,7 @@
                                     android:gravity="center"
                                     android:text="오순교"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="15sp" />
                             </LinearLayout>
 
@@ -333,6 +339,7 @@
                                     android:gravity="center"
                                     android:text="정영훈"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="15sp" />
                             </LinearLayout>
 
@@ -370,6 +377,7 @@
                                     android:gravity="center"
                                     android:text="정태성"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="15sp" />
                             </LinearLayout>
 
@@ -418,7 +426,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="세부회비"
+                            android:text="세부일정"
                             android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -442,21 +450,17 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal">
 
-                                <ImageView
-                                    android:layout_width="20dp"
-                                    android:layout_height="20dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:src="@drawable/ico_dollar" />
-
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
                                     android:layout_marginBottom="5dp"
                                     android:gravity="center"
-                                    android:text="1,000,000￦"
+                                    android:text="1일차──────────────"
                                     android:textAlignment="center"
-                                    android:textSize="15sp" />
+                                    android:textColor="#0067A3"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -468,7 +472,7 @@
                                     android:layout_width="20dp"
                                     android:layout_height="20dp"
                                     android:layout_marginLeft="5dp"
-                                    android:src="@drawable/ico_user_empty" />
+                                    android:src="@drawable/ico_clock" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -476,7 +480,23 @@
                                     android:layout_marginLeft="5dp"
                                     android:layout_marginBottom="5dp"
                                     android:gravity="center"
-                                    android:text="곽승훈"
+                                    android:text="13:00 ~ 14:00"
+                                    android:textAlignment="center"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:gravity="center"
+                                    android:text="- 엉터리생고기 신곡점"
                                     android:textAlignment="center"
                                     android:textSize="15sp" />
                             </LinearLayout>
@@ -491,7 +511,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="30dp"
                                     android:gravity="center"
-                                    android:text="- 200,000￦"
+                                    android:text="- 50,000￦"
                                     android:textAlignment="center"
                                     android:textSize="15sp" />
                             </LinearLayout>
@@ -505,7 +525,7 @@
                                     android:layout_width="20dp"
                                     android:layout_height="20dp"
                                     android:layout_marginLeft="5dp"
-                                    android:src="@drawable/ico_user_empty" />
+                                    android:src="@drawable/ico_clock" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -513,7 +533,23 @@
                                     android:layout_marginLeft="5dp"
                                     android:layout_marginBottom="5dp"
                                     android:gravity="center"
-                                    android:text="곽승훈"
+                                    android:text="14:00~15:00"
+                                    android:textAlignment="center"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:gravity="center"
+                                    android:text="- 숙소"
                                     android:textAlignment="center"
                                     android:textSize="15sp" />
                             </LinearLayout>
@@ -528,155 +564,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="30dp"
                                     android:gravity="center"
-                                    android:text="- 200,000￦"
-                                    android:textAlignment="center"
-                                    android:textSize="15sp" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <ImageView
-                                    android:layout_width="20dp"
-                                    android:layout_height="20dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:src="@drawable/ico_user_empty" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="5dp"
-                                    android:gravity="center"
-                                    android:text="이민혁"
-                                    android:textAlignment="center"
-                                    android:textSize="15sp" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="30dp"
-                                    android:gravity="center"
-                                    android:text="- 200,000￦"
-                                    android:textAlignment="center"
-                                    android:textSize="15sp" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <ImageView
-                                    android:layout_width="20dp"
-                                    android:layout_height="20dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:src="@drawable/ico_user_empty" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="5dp"
-                                    android:gravity="center"
-                                    android:text="오순교"
-                                    android:textAlignment="center"
-                                    android:textSize="15sp" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="30dp"
-                                    android:gravity="center"
-                                    android:text="- 200,000￦"
-                                    android:textAlignment="center"
-                                    android:textSize="15sp" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <ImageView
-                                    android:layout_width="20dp"
-                                    android:layout_height="20dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:src="@drawable/ico_user_empty" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="5dp"
-                                    android:gravity="center"
-                                    android:text="정영훈"
-                                    android:textAlignment="center"
-                                    android:textSize="15sp" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="30dp"
-                                    android:gravity="center"
-                                    android:text="- 200,000￦"
-                                    android:textAlignment="center"
-                                    android:textSize="15sp" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <ImageView
-                                    android:layout_width="20dp"
-                                    android:layout_height="20dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:src="@drawable/ico_user_empty" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="5dp"
-                                    android:gravity="center"
-                                    android:text="정태성"
-                                    android:textAlignment="center"
-                                    android:textSize="15sp" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="30dp"
-                                    android:gravity="center"
-                                    android:text="- 200,000￦"
+                                    android:text="- 130,000￦"
                                     android:textAlignment="center"
                                     android:textSize="15sp" />
                             </LinearLayout>
