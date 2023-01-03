@@ -1,5 +1,10 @@
 package com.mfiletasong.nbread;
 
+import android.view.View;
+import android.widget.Toast;
+
+import com.mfiletasong.nbread.databinding.ChooseTripBinding;
+
 public class Triplist {
     private int imageResourceID;
     private String tripTitle;
@@ -45,5 +50,7 @@ public class Triplist {
     public void setMember(String member) {
         this.member = member;
     }
+
+
 
 }

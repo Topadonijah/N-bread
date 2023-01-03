@@ -1,13 +1,18 @@
 package com.mfiletasong.nbread;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.mfiletasong.nbread.databinding.ActivityMainBinding;
+import com.mfiletasong.nbread.databinding.ChooseTripBinding;
 
 import java.util.ArrayList;
 
@@ -15,7 +20,7 @@ public class TriplistAdapter extends RecyclerView.Adapter<TriplistAdapter.Tripli
 
     private ArrayList<Triplist> myDataList = null;
 
-    public static class TriplistViewHolder extends RecyclerView.ViewHolder {
+    public class TriplistViewHolder extends RecyclerView.ViewHolder {
         public ImageView imageView;
         public TextView title, duration, member;
 
@@ -25,6 +30,13 @@ public class TriplistAdapter extends RecyclerView.Adapter<TriplistAdapter.Tripli
             title = itemView.findViewById(R.id.title);
             duration = itemView.findViewById(R.id.duration);
             member = itemView.findViewById(R.id.member);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    String msg = title.getText() + " 을(를) 클릭하였습니다.";
+                    Toast.makeText(itemView.getContext(), msg.toString(), Toast.LENGTH_SHORT).show();
+                }
+            });
         }
     }
 
