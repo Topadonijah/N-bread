@@ -47,7 +47,5 @@ public class MainActivity extends AppCompatActivity {
         mAdapter = new TriplistAdapter(recordItems);
 
         recyclerView.setAdapter(mAdapter);
-
-
     }
 }
