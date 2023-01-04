@@ -1,6 +1,7 @@
 package com.mfiletasong.nbread;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.mfiletasong.nbread.databinding.ActivityMainBinding;
@@ -34,7 +36,10 @@ public class TriplistAdapter extends RecyclerView.Adapter<TriplistAdapter.Tripli
                 @Override
                 public void onClick(View view) {
                     String msg = title.getText() + " 을(를) 클릭하였습니다.";
+                    Intent intent = new Intent(itemView.getContext(), DetailActivity.class);
                     Toast.makeText(itemView.getContext(), msg.toString(), Toast.LENGTH_SHORT).show();
+                    itemView.getContext().startActivity(intent);
+
                 }
             });
         }

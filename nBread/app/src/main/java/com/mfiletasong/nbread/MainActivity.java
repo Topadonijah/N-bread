@@ -3,15 +3,8 @@ package com.mfiletasong.nbread;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
-import android.view.View;
-import android.widget.SimpleAdapter;
-import android.widget.Toast;
-
 import com.mfiletasong.nbread.databinding.ActivityMainBinding;
-import com.mfiletasong.nbread.databinding.ChooseTripBinding;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
