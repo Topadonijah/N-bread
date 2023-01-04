@@ -6,6 +6,10 @@ android {
     namespace 'com.mfiletasong.nbread'
     compileSdk 32
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.mfiletasong.nbread"
         minSdk 26
